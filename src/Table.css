@@ -1,0 +1,27 @@
+.table{
+    margin-top: 20px;
+    overflow: scroll;
+    height: 400px;
+    color: #6a5d5d;
+}
+.table tr{
+    display: flex;
+   
+    border-bottom: 10px solid  #f3f2f8;
+}
+.table td{
+    padding: 0.5rem;
+}
+
+.table__flag{
+    width: 18px;
+    height: 12px;
+  
+}
+.f1{
+display: flex;
+flex: 1;
+}
+.f2{
+display: flex;
+}

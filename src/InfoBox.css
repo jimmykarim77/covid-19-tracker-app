@@ -1,0 +1,151 @@
+.infoBox{
+    flex: 1;
+    cursor: pointer;
+}
+.infoBox:not(:last-child){
+    margin-right: 10px;
+}
+
+.infoBox--selected {
+    border-top: 10px solid greenyellow;
+}
+
+.infoBox__cases__green{
+color: lightgreen !important;
+}
+
+.infoBox--red{
+    border-color: red;
+}
+.infoBox__cases{
+color: #cc1034;
+font-weight: 600;
+font-size: 1.75rem;
+margin-bottom: 0.5rem;
+}
+.infoBox__total{
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+ .infoBox__title{
+     font-size: 20px !important; 
+    font-weight: 600 !important;
+}
+
+@media (max-width: 360px){
+    .infoBox{
+     width: 20px;
+    }
+    .infoBox__title{
+      font-size: 15px !important;
+      font-weight: 600 !important;
+    }
+    .infoBox__cases{
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;   
+    }
+    .infoBox__total{
+        font-size: 12px !important;
+    }
+    .infobox__logo{
+       display: flex;
+    }
+    .tt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
+  }
+
+  @media (max-width: 375px){
+    .infoBox{
+     width: 20px;
+    }
+    .infoBox__title{
+      font-size: 15px !important;
+      font-weight: 600 !important;
+    }
+    .infoBox__cases{
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;   
+    }
+    .infoBox__total{
+        font-size: 12px !important;
+    }
+    .infobox__logo{
+        display: flex;
+     }
+     .tt{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;  
+     }
+  }
+
+  @media (max-width: 414px){
+    .infoBox{
+     width: 20px;
+    }
+    .infoBox__title{
+      font-size: 15px !important;
+      font-weight: 600 !important;
+    }
+    .infoBox__cases{
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;   
+    }
+    .infoBox__total{
+        font-size: 12px !important;
+    }
+    
+    .infobox__logo{
+        display: flex;
+     }
+     .tt{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;  
+         margin-top: 3px;
+     }
+   
+
+
+  }
+
+
+  @media (max-width: 600px){
+    .infoBox{
+     width: 20px;
+    }
+    .infoBox__title{
+      font-size: 15px !important;
+      font-weight: 600 !important;
+    }
+    .infoBox__cases{
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;   
+    }
+    .infoBox__total{
+        font-size: 12px !important;
+    }
+   
+  }
+
+ .infobox__logo{
+    display: flex ;
+    
+ }
+ .tt{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ 
+

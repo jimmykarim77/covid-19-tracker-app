@@ -1,0 +1,29 @@
+.intruction{
+   
+    margin-top: 10px;
+}
+.title__typo{
+    text-align: center;
+    color:  #e28989 !important;
+}
+.subtitle__typo{
+   
+    text-align: right ;
+
+   font-weight: 600 !important;
+   font-size: 16px !important;
+ 
+}
+.tab{
+    background-color: #e28989 !important ;
+    margin-top: 20px;
+    
+}
+
+.tab_text{
+    font-weight: 600 !important;
+   font-size: 16px !important;
+}
+.card__table{
+    margin-top: 20px;
+}

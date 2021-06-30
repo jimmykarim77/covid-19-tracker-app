@@ -1,0 +1,34 @@
+.f__flex{
+    display: flex;
+     flex-grow: 1;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+}
+.t__flex{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.table__matriel{
+    overflow: scroll;
+    height: 510px;
+}
+.willaya{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+.w__infected{
+    font-weight: 600 !important;
+    color: #cc1034 !important;
+}
+.w__recovered{
+    font-weight: 600 !important;
+    color:  lightgreen !important;
+}
+.w__deaths{
+    font-weight: 600 !important;
+    color: red !important;
+}

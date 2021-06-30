@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+}
+body{
+  background-color: #f5f6fa;
+}
+.App{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  
+}
+
+.app__header > h1 {
+  color: #e28989;
+  font-size: 2rem;
+}
+.app__dropdown{
+  background-color: white;
+
+
+}
+.app__header{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+ 
+}
+.switch{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+
+}
+.icon__b{
+  width: 100px !important;
+  height: 100px !important;
+}
+.app__left{
+  flex: 0.9;
+}
+.app__stats{
+  display: flex;
+  justify-content: space-between;
+}
+.app__header h1{
+  display: flex;
+flex-direction: column;
+flex-grow: 0.9;
+}
+.app__right{
+  display: flex;
+  flex-direction: column;
+}
+.app__right .MuiCardContent-root{
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+}
+.app__graph{
+  flex-grow: 1;
+}
+.app__graph__title{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+@media (max-width: 990px){
+  .App{
+    flex-direction: column;
+  }
+  
+}
+
+@media (max-width: 360px){
+  .app__dropdown{
+    width: 250px;   
+  }
+  .app__header h1{
+    font-size: 12px;
+  }
+  .app__header img{
+    width: 50px;
+    height: 50px;
+  }
+  .button__tlf__1{
+    width: 20px;
+    margin: 3px !important;
+  }
+  .button__tlf__2{
+    width: 20px;
+    
+  }
+
+ 
+}
+
+@media (max-width: 375px){
+  .app__dropdown{
+    width: 220px !important;   
+  }
+  .app__header h1{
+    font-size: 12px;
+  }
+  .app__header img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .button__tlf__1{
+    width: 20px;
+    margin: 3px !important;
+  }
+  .button__tlf__2{
+    width: 20px;
+    
+  }
+
+}
+@media (max-width: 414px){
+  .app__dropdown{
+    width: 220px;   
+  }
+  .app__header h1{
+    font-size: 12px;
+  }
+  .app__header img{
+    width: 50px;
+    height: 50px;
+  }
+  .button__tlf__1{
+    width: 20px;
+    margin: 3px !important;
+  }
+  .button__tlf__2{
+    width: 20px;
+    
+  }
+}
+
+/**********footer********/
+.footer{
+  background-color: #e28989;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.karim{
+  color: firebrick;
+}
